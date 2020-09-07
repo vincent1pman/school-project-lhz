@@ -1,0 +1,14 @@
+.Menu{
+    background-color: green;
+}
+
+.index{
+    background-image: url(../grocery-background.jfif);
+    height:100vh;
+    background-size:cover;
+}
+
+.Menu ul{
+    display:inline-flex;
+    list-style:none;
+}
