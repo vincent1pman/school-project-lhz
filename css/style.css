@@ -1,9 +1,10 @@
 .Menu{
-    background-color: green;
+    background-color: transparent;  
+    text-align:center; 
 }
 
 .index{
-    background-image: url(../grocery-background.jfif);
+    /* background-image: url(../grocery-background.jfif); */
     height:100vh;
     background-size:cover;
 }
@@ -11,4 +12,15 @@
 .Menu ul{
     display:inline-flex;
     list-style:none;
+}
+
+.Menu ul li{
+    margin:10px;
+}
+
+
+section{
+    display:block;
+    background-color: red;
+    padding:12px;
 }
