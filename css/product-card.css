@@ -1,0 +1,14 @@
+.card1{
+    display:block;
+    box-shadow: 0 4px 8px 0 grey;
+    margin:auto;
+    width:fit-content;
+}
+
+.card1 img{
+    width:200px;
+}
+
+.add-to-cart{
+    cursor:pointer;
+}
