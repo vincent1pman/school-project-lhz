@@ -6,27 +6,46 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/product-card.css">
+    <link rel="stylesheet" href="css/announcement-bar.css">
     <link rel="stylesheet" href="../../../../Program Files/fontawesome-free-5.14.0-web/css/all.css">
 </head>
 <body>
-        <div id="announcement-bar" class="annnouncement-bar">
+        <div id="announcement-bar" class="announcement-bar">
             <section>
-                anouncement bar
+                <ul>                   
+                    <li class="search-box">                       
+                        <input class="search-text" type="text" placeholder="search">
+                            <a>
+                                <i class="fas fa-search-plus"></i>
+                            </a>
+                    </li>
+
+                    <li class="cart">
+                        <a href="cart.html">
+                            <i class="fa fa-shopping-cart"></i>
+                        </a>  
+                    </li>
+
+                    <li class="Login">
+                        <a href="Login.html">
+                            <i class="fas fa-sign-in-alt"></i>
+                            Login
+                        </a>
+                    </li>       
+
+                    <li class="Signup">
+                        <a href="Signup.html">
+                            <i class="fas fa-user-circle"></i>
+                            SignUp
+                        </a>
+                    </li> 
+                      
+                </ul>           
             </section>
         </div> 
-        <div class="logo" >
-            <a href="cart.html">
-                <i class="fa fa-shopping-cart"></i>
-            </a>  
-        </div>
+       
 
-        <div class="search-box">
-            <input class="search-text" type="text" placeholder="search">
-            <a>
-                <i class="fas fa-search-plus"></i>
-            </a>
-        </div>
-
+       
         <div class="Menu">
              <ul>
                 <li class="homepage" href="">
@@ -45,11 +64,7 @@
                         <i class="fas fa-phone"></i>Contact
                     </a>
                 </li>  
-                <li class="Login">
-                    <a href="Login.html">
-                        Login
-                    </a>
-                </li>         
+                 
             </ul>
         </div>
 
@@ -58,8 +73,6 @@
             <h1>vegetable</h1>
             <button class="add-to-cart">Add to cart</button>
         </div>
-  
- 
-   
+<script src="javascript/script.js"></script>
 </body>
 </html>

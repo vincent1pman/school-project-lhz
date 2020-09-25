@@ -1,0 +1,10 @@
+
+.announcement-bar ul{
+    list-style:none;
+    display:inline-flex;
+}
+
+.announcement-bar ul li{
+   margin:10px;
+}
+
