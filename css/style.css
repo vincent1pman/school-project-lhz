@@ -1,5 +1,7 @@
 body{
     text-align:center;
+    margin:0;
+    padding:0;
 }
 
 .Menu{
@@ -40,4 +42,22 @@ section{
 .container{
     text-align: center;
     justify-content: center;
+}
+
+.slider{
+    width:800px;
+    height:400px;
+    background:url(groceries1.jpg);
+    margin:100px auto;
+    animation:slide 10s infinite; 
+    
+}
+
+@keyframes slide{
+    50%{
+        background:url(groceries1.jpg);
+    }
+    100%{
+        background:url(groceries2.jpg);
+    }
 }
