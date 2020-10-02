@@ -45,19 +45,26 @@ section{
 }
 
 .slider{
-    width:800px;
-    height:400px;
     background:url(groceries1.jpg);
+    width:700px;
+    height:400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     margin:100px auto;
     animation:slide 10s infinite; 
     
 }
 
+
+
 @keyframes slide{
     50%{
         background:url(groceries1.jpg);
+        background-size: 100% 100%;
     }
     100%{
         background:url(groceries2.jpg);
+        background-size: 100% 100%;
     }
 }
+

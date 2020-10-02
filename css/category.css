@@ -1,0 +1,8 @@
+.Category ul{
+    display:inline-flex;
+    list-style:none;
+}
+
+.Category ul li{
+    margin:10px;
+}
