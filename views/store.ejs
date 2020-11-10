@@ -4,6 +4,7 @@
         <title>The Generics | Store</title>
         <meta name="description" content="This is the description">
         <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="../css/slideshow.css" />
         <script src="https://checkout.stripe.com/checkout.js" defer></script>
         <script>
             var stripePublicKey = '<%= stripePublicKey %>'
@@ -11,46 +12,96 @@
         <script src="store.js" defer></script>
     </head>
     <body>
+    
         <header class="main-header">
             <nav class="main-nav nav">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="store.html">STORE</a></li>
                     <li><a href="about.html">ABOUT</a></li>
+                    <li class="search-box"><input class="search-text" type="text" placeholder="search"><a><i class="fas fa-search-plus"></i></a></li>
+                    <li class="cart"><a href="cart.ejs"><i class="fa fa-shopping-cart"></i></a></li>
                 </ul>
             </nav>
             <h1 class="band-name band-name-large">The Generics</h1>
         </header>
+       
+
         <section class="container content-section">
-            <h2 class="section-header">MUSIC</h2>
-            <div class="shop-items">
-                <% items.music.forEach(function(item){ %>
-                    <div class="shop-item" data-item-id="<%= item.id %>">
-                        <span class="shop-item-title"><%= item.name %></span>
-                        <img class="shop-item-image" src="Images/<%= item.imgName %>">
-                        <div class="shop-item-details">
-                            <span class="shop-item-price">$<%= item.price / 100 %></span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                        </div>
+        <h2 class="section-header">Vegetable</h2>
+        <div class="shop-items">
+            <% items.vegetable.forEach(function(item){ %>
+                <div class="shop-item" data-item-id="<%= item.id %>">
+                    <span class="shop-item-title"><%= item.name %></span>
+                    <img class="shop-item-image" src="Images/<%= item.imgName %>">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$<%= item.price / 100 %></span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
-                <% }) %>
-            </div>
-        </section>
-        <section class="container content-section">
-            <h2 class="section-header">MERCH</h2>
-            <div class="shop-items">
-                <% items.merch.forEach(function(item){ %>
-                    <div class="shop-item" data-item-id="<%= item.id %>">
-                        <span class="shop-item-title"><%= item.name %></span>
-                        <img class="shop-item-image" src="Images/<%= item.imgName %>">
-                        <div class="shop-item-details">
-                            <span class="shop-item-price">$<%= item.price / 100 %></span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                        </div>
+                </div>
+            <% }) %>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">Meat</h2>
+        <div class="shop-items">
+            <% items.meat.forEach(function(item){ %>
+                <div class="shop-item" data-item-id="<%= item.id %>">
+                    <span class="shop-item-title"><%= item.name %></span>
+                    <img class="shop-item-image" src="Images/<%= item.imgName %>">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$<%= item.price / 100 %></span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
-                <% }) %>
-            </div>
-        </section>
+                </div>
+            <% }) %>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">Seafood</h2>
+        <div class="shop-items">
+            <% items.seafood.forEach(function(item){ %>
+                <div class="shop-item" data-item-id="<%= item.id %>">
+                    <span class="shop-item-title"><%= item.name %></span>
+                    <img class="shop-item-image" src="Images/<%= item.imgName %>">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$<%= item.price / 100 %></span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">Fruit</h2>
+        <div class="shop-items">
+            <% items.fruit.forEach(function(item){ %>
+                <div class="shop-item" data-item-id="<%= item.id %>">
+                    <span class="shop-item-title"><%= item.name %></span>
+                    <img class="shop-item-image" src="Images/<%= item.imgName %>">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$<%= item.price / 100 %></span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">Rice and Grain</h2>
+        <div class="shop-items">
+            <% items.rice_and_grain.forEach(function(item){ %>
+                <div class="shop-item" data-item-id="<%= item.id %>">
+                    <span class="shop-item-title"><%= item.name %></span>
+                    <img class="shop-item-image" src="Images/<%= item.imgName %>">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$<%= item.price / 100 %></span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    </section>
         <section class="container content-section">
             <h2 class="section-header">CART</h2>
             <div class="cart-row">

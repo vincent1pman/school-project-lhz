@@ -83,14 +83,40 @@ app.use('/users', require('./routes/users.js'));
       }
     })
   })
-  
+  //
+  app.get('/store.html', function(req, res) {
+    fs.readFile('items.json', function(error, data) {
+      if (error) {
+        res.status(500).end()
+      } else {
+        res.render('store.ejs', {
+          stripePublicKey: stripePublicKey,
+          items: JSON.parse(data)
+        })
+      }
+    })
+  })
+
+  app.get('/cart.ejs', function(req, res) {
+    fs.readFile('items.json', function(error, data) {
+      if (error) {
+        res.status(500).end()
+      } else {
+        res.render('cart.ejs', {
+          stripePublicKey: stripePublicKey,
+          items: JSON.parse(data)
+        })
+      }
+    })
+  })
+  //
   app.post('/purchase', function(req, res) {
     fs.readFile('items.json', function(error, data) {
       if (error) {
         res.status(500).end()
       } else {
         const itemsJson = JSON.parse(data)
-        const itemsArray = itemsJson.music.concat(itemsJson.merch)
+        const itemsArray = itemsJson.vegetable.concat(itemsJson.meat,itemsJson.seafood,itemsJson.fruit,itemsJson.rice_and_grain,)
         let total = 0
         req.body.items.forEach(function(item) {
           const itemJson = itemsArray.find(function(i) {

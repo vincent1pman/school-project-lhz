@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://checkout.stripe.com/checkout.js" defer></script>
+    <script>
+    var stripePublicKey = '<%= stripePublicKey %>'
+    </script>
+    <script src="store.js" defer></script>
+    <title>Cart</title>
+</head>
+<body>
+<header class="main-header">
+<nav class="main-nav nav">
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="store.html">STORE</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li class="search-box"><input class="search-text" type="text" placeholder="search"><a><i class="fas fa-search-plus"></i></a></li>
+        <li class="cart"><a href="cart.ejs"><i class="fa fa-shopping-cart"></i></a></li>
+    </ul>
+</nav>
+<h1 class="band-name band-name-large">The Generics</h1>
+</header>
+
+
+    <section class="container content-section">
+    <h2 class="section-header">CART</h2>
+    <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items">
+    </div>
+    <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$0</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+</section>
+</body>
+</html>
