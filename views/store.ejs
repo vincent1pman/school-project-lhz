@@ -19,13 +19,17 @@
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="store.html">STORE</a></li>
                     <li><a href="about.html">ABOUT</a></li>
+                    <li> <a href="/users/logout">Logout</a></li>
+                    
                     <li class="search-box"><input class="search-text" type="text" placeholder="search"><a><i class="fas fa-search-plus"></i></a></li>
                     <li class="cart"><a href="cart.ejs"><i class="fa fa-shopping-cart"></i></a></li>
                 </ul>
             </nav>
-            <h1 class="band-name band-name-large">The Generics</h1>
+            <h1 class="band-name band-name-large">LHZ Groceries</h1>
         </header>
-       
+
+      
+   
 
         <section class="container content-section">
         <h2 class="section-header">Vegetable</h2>
@@ -36,7 +40,7 @@
                     <img class="shop-item-image" src="Images/<%= item.imgName %>">
                     <div class="shop-item-details">
                         <span class="shop-item-price">$<%= item.price / 100 %></span>
-                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        <button class="btn btn-danger shop-item-button" type="button">ADD TO CART</button>
                     </div>
                 </div>
             <% }) %>
@@ -51,7 +55,7 @@
                     <img class="shop-item-image" src="Images/<%= item.imgName %>">
                     <div class="shop-item-details">
                         <span class="shop-item-price">$<%= item.price / 100 %></span>
-                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        <button class="btn btn-danger shop-item-button" type="button">ADD TO CART</button>
                     </div>
                 </div>
             <% }) %>
@@ -66,7 +70,7 @@
                     <img class="shop-item-image" src="Images/<%= item.imgName %>">
                     <div class="shop-item-details">
                         <span class="shop-item-price">$<%= item.price / 100 %></span>
-                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        <button class="btn btn-danger shop-item-button" type="button">ADD TO CART</button>
                     </div>
                 </div>
             <% }) %>
@@ -81,7 +85,7 @@
                     <img class="shop-item-image" src="Images/<%= item.imgName %>">
                     <div class="shop-item-details">
                         <span class="shop-item-price">$<%= item.price / 100 %></span>
-                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        <button class="btn btn-danger shop-item-button" type="button">ADD TO CART</button>
                     </div>
                 </div>
             <% }) %>
@@ -96,14 +100,14 @@
                     <img class="shop-item-image" src="Images/<%= item.imgName %>">
                     <div class="shop-item-details">
                         <span class="shop-item-price">$<%= item.price / 100 %></span>
-                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        <button class="btn btn-danger shop-item-button" type="button">ADD TO CART</button>
                     </div>
                 </div>
             <% }) %>
         </div>
     </section>
         <section class="container content-section">
-            <h2 class="section-header">CART</h2>
+            <h2 class="section-header">CART ITEMS</h2>
             <div class="cart-row">
                 <span class="cart-item cart-header cart-column">ITEM</span>
                 <span class="cart-price cart-header cart-column">PRICE</span>
@@ -111,33 +115,42 @@
             </div>
             <div class="cart-items">
             </div>
+         
             <div class="cart-total">
                 <strong class="cart-total-title">Total</strong>
                 <span class="cart-total-price">$0</span>
             </div>
-            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+            <button class="btn btn-danger btn-purchase" type="button">CHECKOUT</button>
         </section>
         <footer class="main-footer">
             <div class="container main-footer-container">
-                <h3 class="band-name">The Generics</h3>
+                
+                <p class="band-name">stay connect :</p>
                 <ul class="nav footer-nav">
                     <li>
-                        <a href="https://www.youtube.com" target="_blank">
-                            <img src="Images/YouTube Logo.png">
+                        <a href="https://www.youtube.com" target="_blank"class='social_media'>
+                            <img src="Images/YouTube-logo.png">
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.spotify.com" target="_blank">
-                            <img src="Images/Spotify Logo.png">
+                    <a href="https://www.instagram.com" target="_blank" class='social_media'>
+                        <img src="Images/Instagram-logo.png">
+                    </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank" class='social_media'>
+                            <img src="Images/Facebook-logo.png">
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com" target="_blank">
-                            <img src="Images/Facebook Logo.png">
-                        </a>
-                    </li>
+                    <a href="https://www.linkedin.com" target="_blank" class='social_media'>
+                        <img src="Images/LinkedIn-logo.png">
+                    </a>
+                </li>
                 </ul>
             </div>
         </footer>
+
+       
     </body>
 </html>

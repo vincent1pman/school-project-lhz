@@ -1,15 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
-@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+/* @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700'); */
+/* @import url("https://fonts.googleapis.com/css?family=Metal+Mania"); */
 
-@font-face {
+
+/* @font-face {
     font-family: "Booter - Zero Zero";
     src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
          url("Fonts/Booter - Zero Zero.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
+} */
+
+@font-face {
+	font-family: 'CLARENDON';
+	src: url('./CLARENDON.eot');
+    src: local('CLARENDON'), url('./CLARENDON.woff') format('woff'), url('./CLARENDON.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: Raleway;
     color: #777;
@@ -19,6 +30,7 @@ html, body {
     margin: 0;
     padding: 0;
     min-height: 100%;
+    font-family: 'CLARENDON';
 }
 
 .nav ul {
@@ -53,7 +65,7 @@ html, body {
 
 .main-header {
     background-color: rgba(0, 0, 0, .6);
-    background-image: url("Images/Header Background.jpg");
+    background-image: url("Images/groceries1.jpg");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
@@ -62,7 +74,7 @@ html, body {
 .band-name {
     text-align: center;
     margin: 0;
-    font-size: 4em;
+    font-size: 2em;
     font-family: "Booter - Zero Zero";
     font-weight: normal;
     color: white;
@@ -98,7 +110,7 @@ html, body {
 }
 
 .main-footer {
-    background-color: #56CCF2;
+    background-color:Grey;
     color: white;
     padding: .25em 0;
 }
@@ -217,7 +229,8 @@ html, body {
 }
 
 .shop-item-image {
-    height: 250px;
+    width:200px;
+    height:200px;
 }
 
 .shop-item-details {
@@ -337,4 +350,132 @@ html, body {
     display: block;
     margin: 40px auto 80px auto;
     font-size: 1.75em;
+}
+
+.slider{
+    background:url(groceries1.jpg);
+    width:700px;
+    height:400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin:100px auto;
+    animation:slide 10s infinite; 
+    
+}
+
+@keyframes slide{
+    50%{
+        background:url(Images/groceries1.jpg);
+        background-size: 100% 100%;
+    }
+    100%{
+        background:url(Images/groceries2.jpg);
+        background-size: 100% 100%;
+    }
+}
+
+/*  */
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+img .social_media{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    position: absolute;
+    
 }
