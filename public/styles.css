@@ -97,16 +97,17 @@ html, body {
     font-family: "Metal Mania";
     font-weight: normal;
     color: #333;
-    text-align: center;
+    text-align: left;
     font-size: 2.5em;
 }
 
-.about-band-image {
+.about-us-image {
     float: left;
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
     margin: 15px;
     border-radius: 50%;
+    padding:20px;
 }
 
 .main-footer {
@@ -499,6 +500,7 @@ img .social_media{
     border-width: 5px;
     border-color:grey;
 }
+
 
 
 
