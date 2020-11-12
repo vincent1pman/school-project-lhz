@@ -139,5 +139,7 @@ app.use('/users', require('./routes/users.js'));
       }
     })
   })
-  
+  //
+  app.use(express.static('/public/styles.css' + '/public'));
+  //
   app.listen(3000)
