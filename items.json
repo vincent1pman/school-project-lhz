@@ -4,9 +4,27 @@
   "vegetable": [
     {
       "id": 1,
-      "name": "Vegetable",
+      "name": "Cabbage",
       "price": 2099,
-      "imgName": "vegetable.jpg"
+      "imgName": "cabbage.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Brocoli",
+      "price": 2099,
+      "imgName": "brocoli.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Cauliflower",
+      "price": 2099,
+      "imgName": "cauliflower.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Cucumber",
+      "price": 2099,
+      "imgName": "cucumber.jpg"
     }
   ],
   "meat": [
@@ -15,6 +33,18 @@
       "name": "Meat",
       "price": 1999,
       "imgName": "meat.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Indian Beef Tenderloin",
+      "price": 1350,
+      "imgName": "indian-beef-tenderloin.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Chicken Drumstick",
+      "price": 650,
+      "imgName": "chicken-drumstick.jpg"
     }
   ],
   "seafood": [
