@@ -120,9 +120,21 @@
   "rice_and_grain": [
     {
       "id": 5,
-      "name": "Rice",
+      "name": "White Rice",
       "price": 2099,
-      "imgName": "rice and grain.jpg"
+      "imgName": "white rice.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Brown Rice",
+      "price": 2099,
+      "imgName": "brown-rice.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Glutinous Rice",
+      "price": 2099,
+      "imgName": "glutinous-rice.jpg"
     }
   ]
 }
