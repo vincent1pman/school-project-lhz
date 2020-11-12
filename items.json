@@ -5,34 +5,34 @@
     {
       "id": 1,
       "name": "Cabbage",
-      "price": 2099,
+      "price": 200,
       "imgName": "cabbage.jpg"
     },
     {
       "id": 1,
       "name": "Brocoli",
-      "price": 2099,
+      "price": 380,
       "imgName": "brocoli.jpg"
     },
     {
       "id": 1,
       "name": "Cauliflower",
-      "price": 2099,
+      "price": 280,
       "imgName": "cauliflower.jpg"
     },
     {
       "id": 1,
       "name": "Cucumber",
-      "price": 2099,
+      "price": 300,
       "imgName": "cucumber.jpg"
     }
   ],
   "meat": [
     {
       "id": 2,
-      "name": "Meat",
-      "price": 1999,
-      "imgName": "meat.jpg"
+      "name": "Beef Ribs",
+      "price": 2520,
+      "imgName": "beef-ribs.webp"
     },
     {
       "id": 2,
@@ -50,9 +50,21 @@
   "seafood": [
     {
       "id": 3,
-      "name": "Seafood",
-      "price": 2099,
-      "imgName": "seafood.jpg"
+      "name": "Butterfishes",
+      "price": 950,
+      "imgName": "butterfishes.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Sabah Flower Crab",
+      "price": 3820,
+      "imgName": "Sabah-flower-crab.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Tiger Prawn",
+      "price": 2350,
+      "imgName": "tiger-prawn.jpg"
     }
   ],
   "fruit": [

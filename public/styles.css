@@ -479,6 +479,16 @@ img .social_media{
     position: absolute;
     
 }
+/*  */
+#register:hover{
+    cursor: pointer;
+    color:red;
+}
+
+#login:hover{
+    cursor: pointer;
+    color:red;
+}
 
 
 
