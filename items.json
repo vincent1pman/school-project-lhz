@@ -25,6 +25,18 @@
       "name": "Cucumber",
       "price": 300,
       "imgName": "cucumber.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Onion",
+      "price": 280,
+      "imgName": "onion.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Lotus Root",
+      "price": 280,
+      "imgName": "lotus-root.jpg"
     }
   ],
   "meat": [
@@ -70,9 +82,39 @@
   "fruit": [
     {
       "id": 4,
-      "name": "Fruit",
+      "name": "Orange",
       "price": 2099,
-      "imgName": "fruit.jpg"
+      "imgName": "orange.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Apple",
+      "price": 2099,
+      "imgName": "apple.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Papaya",
+      "price": 2099,
+      "imgName": "papaya.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Mango",
+      "price": 2099,
+      "imgName": "mango.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Avocado",
+      "price": 2099,
+      "imgName": "avocado.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Carrot",
+      "price": 2099,
+      "imgName": "carrot.webp"
     }
   ],
   "rice_and_grain": [
