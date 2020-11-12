@@ -9,31 +9,31 @@
       "imgName": "cabbage.jpg"
     },
     {
-      "id": 1,
+      "id": 2,
       "name": "Brocoli",
       "price": 380,
       "imgName": "brocoli.jpg"
     },
     {
-      "id": 1,
+      "id": 3,
       "name": "Cauliflower",
       "price": 280,
       "imgName": "cauliflower.jpg"
     },
     {
-      "id": 1,
+      "id": 4,
       "name": "Cucumber",
       "price": 300,
       "imgName": "cucumber.jpg"
     },
     {
-      "id": 1,
+      "id": 5,
       "name": "Onion",
       "price": 280,
       "imgName": "onion.jpg"
     },
     {
-      "id": 1,
+      "id": 6,
       "name": "Lotus Root",
       "price": 280,
       "imgName": "lotus-root.jpg"
@@ -41,19 +41,19 @@
   ],
   "meat": [
     {
-      "id": 2,
+      "id": 7,
       "name": "Beef Ribs",
       "price": 2520,
       "imgName": "beef-ribs.webp"
     },
     {
-      "id": 2,
+      "id": 8,
       "name": "Indian Beef Tenderloin",
       "price": 1350,
       "imgName": "indian-beef-tenderloin.jpg"
     },
     {
-      "id": 2,
+      "id": 9,
       "name": "Chicken Drumstick",
       "price": 650,
       "imgName": "chicken-drumstick.jpg"
@@ -61,19 +61,19 @@
   ],
   "seafood": [
     {
-      "id": 3,
+      "id": 10,
       "name": "Butterfishes",
       "price": 950,
       "imgName": "butterfishes.jpg"
     },
     {
-      "id": 3,
+      "id": 11,
       "name": "Sabah Flower Crab",
       "price": 3820,
       "imgName": "Sabah-flower-crab.jpg"
     },
     {
-      "id": 3,
+      "id": 12,
       "name": "Tiger Prawn",
       "price": 2350,
       "imgName": "tiger-prawn.jpg"
@@ -81,60 +81,60 @@
   ],
   "fruit": [
     {
-      "id": 4,
+      "id": 13,
       "name": "Orange",
-      "price": 2099,
+      "price": 340,
       "imgName": "orange.jpg"
     },
     {
-      "id": 4,
+      "id": 14,
       "name": "Apple",
-      "price": 2099,
+      "price": 440,
       "imgName": "apple.jpg"
     },
     {
-      "id": 4,
+      "id": 15,
       "name": "Papaya",
-      "price": 2099,
+      "price": 1020,
       "imgName": "papaya.jpg"
     },
     {
-      "id": 4,
+      "id": 16,
       "name": "Mango",
-      "price": 2099,
+      "price": 600,
       "imgName": "mango.jpg"
     },
     {
-      "id": 4,
+      "id": 17,
       "name": "Avocado",
-      "price": 2099,
+      "price": 350,
       "imgName": "avocado.jpg"
     },
     {
-      "id": 4,
+      "id": 18,
       "name": "Carrot",
-      "price": 2099,
+      "price": 890,
       "imgName": "carrot.webp"
     }
   ],
   "rice_and_grain": [
     {
-      "id": 5,
-      "name": "White Rice",
-      "price": 2099,
-      "imgName": "white rice.jpg"
+      "id": 19,
+      "name": " White Rice 10kg",
+      "price": 2599,
+      "imgName": "White Rice.webp"
     },
     {
-      "id": 5,
+      "id": 20,
       "name": "Brown Rice",
-      "price": 2099,
-      "imgName": "brown-rice.jpg"
+      "price": 3410,
+      "imgName": "Brown Rice.webp"
     },
     {
-      "id": 5,
-      "name": "Glutinous Rice",
-      "price": 2099,
-      "imgName": "glutinous-rice.jpg"
+      "id": 21,
+      "name": "Wheat Germ",
+      "price": 480,
+      "imgName": "Wheat Germ.webp"
     }
   ]
 }

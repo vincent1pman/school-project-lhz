@@ -97,6 +97,50 @@ html, body {
     font-family: "Metal Mania";
     font-weight: normal;
     color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#section-header-Vegetable {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+#section-header-Meat {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+#section-header-Seafood {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+#section-header-Fruit {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+#section-header-Rice-And-Grain {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.section-header-about-us {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
     text-align: left;
     font-size: 2.5em;
 }
@@ -501,7 +545,32 @@ img .social_media{
     border-color:grey;
 }
 
+.Category {
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
 
+.Category ul{
+    margin:0;   
+}
+
+.Category li{
+    display: inline;
+    list-style:none;
+}
+
+.Category a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.Category a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
 
 
 

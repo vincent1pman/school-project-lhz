@@ -25,6 +25,15 @@
                     
                 </ul>
             </nav>
+            <div class="Category">
+            <ul>
+                <li class="Vegetable"><a href="#section-header-Vegetable">Vegetable</a></li>
+                <li class="Meat"><a href="#section-header-Meat">Meat</a></li>
+                <li class="Seafood"><a href="#section-header-Seafood">Seafood</a></li>
+                <li class="Fruit"><a href="#section-header-Fruit">Fruit</a></li>
+                <li class="Rice-And-Grain"><a href="#section-header-Rice-And-Grain">Rice and grain</a></li>
+            </ul>
+            </div>
             <h1 class="band-name band-name-large">LHZ Grocery</h1>
         </header>
 
@@ -32,7 +41,7 @@
    
 
         <section class="container content-section">
-        <h2 class="section-header">Vegetable</h2>
+        <h2 id="section-header-Vegetable">Vegetable</h2>
         <div class="shop-items">
             <% items.vegetable.forEach(function(item){ %>
                 <div class="shop-item" data-item-id="<%= item.id %>">
@@ -47,7 +56,7 @@
         </div>
     </section>
     <section class="container content-section">
-        <h2 class="section-header">Meat</h2>
+        <h2 id="section-header-Meat">Meat</h2>
         <div class="shop-items">
             <% items.meat.forEach(function(item){ %>
                 <div class="shop-item" data-item-id="<%= item.id %>">
@@ -62,7 +71,7 @@
         </div>
     </section>
     <section class="container content-section">
-        <h2 class="section-header">Seafood</h2>
+        <h2 id="section-header-Seafood">Seafood</h2>
         <div class="shop-items">
             <% items.seafood.forEach(function(item){ %>
                 <div class="shop-item" data-item-id="<%= item.id %>">
@@ -77,7 +86,7 @@
         </div>
     </section>
     <section class="container content-section">
-        <h2 class="section-header">Fruit</h2>
+        <h2 id="section-header-Fruit">Fruit</h2>
         <div class="shop-items">
             <% items.fruit.forEach(function(item){ %>
                 <div class="shop-item" data-item-id="<%= item.id %>">
@@ -92,7 +101,7 @@
         </div>
     </section>
     <section class="container content-section">
-        <h2 class="section-header">Rice and Grain</h2>
+        <h2 id="section-header-Rice-And-Grain">Rice and Grain</h2>
         <div class="shop-items">
             <% items.rice_and_grain.forEach(function(item){ %>
                 <div class="shop-item" data-item-id="<%= item.id %>">
