@@ -4,7 +4,6 @@ if (document.readyState == 'loading') {
     ready()
 }
 
-
 function ready() {
     var removeCartItemButtons = document.getElementsByClassName('btn-danger')
     for (var i = 0; i < removeCartItemButtons.length; i++) {
@@ -72,7 +71,7 @@ var stripeHandler = StripeCheckout.configure({
 
 function purchaseClicked() {
     var priceElement = document.getElementsByClassName('cart-total-price')[0]
-    var price = parseFloat(priceElement.innerText.replace('$', '')) * 100
+    var price = parseFloat(priceElement.innerText.replace('RM', '')) * 100
     stripeHandler.open({
         amount: price
     })
@@ -139,10 +138,10 @@ function updateCartTotal() {
         var cartRow = cartRows[i]
         var priceElement = cartRow.getElementsByClassName('cart-price')[0]
         var quantityElement = cartRow.getElementsByClassName('cart-quantity-input')[0]
-        var price = parseFloat(priceElement.innerText.replace('$', ''))
+        var price = parseFloat(priceElement.innerText.replace('RM', ''))
         var quantity = quantityElement.value
         total = total + (price * quantity)
     }
     total = Math.round(total * 100) / 100
-    document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total
+    document.getElementsByClassName('cart-total-price')[0].innerText = 'RM' + total
 }
