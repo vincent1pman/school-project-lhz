@@ -35,14 +35,36 @@ html, body {
 
 .nav ul {
     margin: 0;
+    display:inline-flex;
+    list-style-type:none;
 }
 
 .nav li {
-    display: inline;
+    /* display: inline; */
+    margin:10px;
 }
 
 .nav a {
-    display: inline-block;
+    /* display: inline-block; */
+    
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul {
+    margin: 0;
+    display:inline-flex;
+    list-style-type:none;
+}
+
+.footer li {
+    display: inline;
+    margin:10px;
+}
+
+.footer a {
+    display: inline-block;   
     padding: .5em;
     color: white;
     text-decoration: none;
