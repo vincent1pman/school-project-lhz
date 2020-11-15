@@ -55,8 +55,26 @@
     {
       "id": 9,
       "name": "Chicken Drumstick",
-      "price": 650,
+      "price": 1850,
       "imgName": "chicken-drumstick.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Mutton",
+      "price": 4500,
+      "imgName": "mutton.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Chicken Breast",
+      "price": 1050,
+      "imgName": "chicken-breast.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Chicken Wings",
+      "price": 950,
+      "imgName": "chicken-wings.jpg"
     }
   ],
   "seafood": [
@@ -77,6 +95,24 @@
       "name": "Tiger Prawn",
       "price": 2350,
       "imgName": "tiger-prawn.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Red Snapper",
+      "price": 4100,
+      "imgName": "red-snapper.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Stingray",
+      "price": 3300,
+      "imgName": "stingray.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Seabass",
+      "price": 2900,
+      "imgName": "seabass.jpg"
     }
   ],
   "fruit": [
