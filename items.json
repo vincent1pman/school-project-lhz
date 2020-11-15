@@ -59,19 +59,19 @@
       "imgName": "chicken-drumstick.jpg"
     },
     {
-      "id": 9,
+      "id": 10,
       "name": "Mutton",
       "price": 4500,
       "imgName": "mutton.jpg"
     },
     {
-      "id": 9,
+      "id": 11,
       "name": "Chicken Breast",
       "price": 1050,
       "imgName": "chicken-breast.jpg"
     },
     {
-      "id": 9,
+      "id": 12,
       "name": "Chicken Wings",
       "price": 950,
       "imgName": "chicken-wings.jpg"
@@ -79,37 +79,37 @@
   ],
   "seafood": [
     {
-      "id": 10,
+      "id": 13,
       "name": "Butterfishes",
       "price": 950,
       "imgName": "butterfishes.jpg"
     },
     {
-      "id": 11,
+      "id": 14,
       "name": "Sabah Flower Crab",
       "price": 3820,
       "imgName": "Sabah-flower-crab.jpg"
     },
     {
-      "id": 12,
+      "id": 15,
       "name": "Tiger Prawn",
       "price": 2350,
       "imgName": "tiger-prawn.jpg"
     },
     {
-      "id": 12,
+      "id": 16,
       "name": "Red Snapper",
       "price": 4100,
       "imgName": "red-snapper.jpg"
     },
     {
-      "id": 12,
+      "id": 17,
       "name": "Stingray",
       "price": 3300,
       "imgName": "stingray.jpg"
     },
     {
-      "id": 12,
+      "id": 18,
       "name": "Seabass",
       "price": 2900,
       "imgName": "seabass.jpg"
@@ -117,37 +117,37 @@
   ],
   "fruit": [
     {
-      "id": 13,
+      "id": 19,
       "name": "Orange",
       "price": 340,
       "imgName": "orange.jpg"
     },
     {
-      "id": 14,
+      "id": 20,
       "name": "Apple",
       "price": 440,
       "imgName": "apple.jpg"
     },
     {
-      "id": 15,
+      "id": 21,
       "name": "Papaya",
       "price": 1020,
       "imgName": "papaya.jpg"
     },
     {
-      "id": 16,
+      "id": 22,
       "name": "Mango",
       "price": 600,
       "imgName": "mango.jpg"
     },
     {
-      "id": 17,
+      "id": 23,
       "name": "Avocado",
       "price": 350,
       "imgName": "avocado.jpg"
     },
     {
-      "id": 18,
+      "id": 24,
       "name": "Carrot",
       "price": 890,
       "imgName": "carrot.webp"
@@ -155,19 +155,19 @@
   ],
   "rice_and_grain": [
     {
-      "id": 19,
+      "id": 25,
       "name": " White Rice 10kg",
       "price": 2599,
       "imgName": "White Rice.webp"
     },
     {
-      "id": 20,
+      "id": 26,
       "name": "Brown Rice",
       "price": 3410,
       "imgName": "Brown Rice.webp"
     },
     {
-      "id": 21,
+      "id": 27,
       "name": "Wheat Germ",
       "price": 480,
       "imgName": "Wheat Germ.webp"
