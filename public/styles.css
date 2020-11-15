@@ -110,6 +110,15 @@ html, body {
     margin: 1em;
 }
 
+.homepage-content-section {
+    margin: 2sem;
+    background-color: beige;
+}
+
+.homepage-content-section p{
+   font-size: large;
+}
+
 .container {
     max-width: 900px;
     margin: 0 auto;
@@ -159,10 +168,20 @@ html, body {
     font-size: 2.5em;
 }
 
+
+
 .section-header-about-us {
     font-family: "Metal Mania";
     font-weight: normal;
     color: #333;
+    text-align: left;
+    font-size: 2.5em;
+}
+
+.section-header-about-us {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color:green;
     text-align: left;
     font-size: 2.5em;
 }
@@ -173,6 +192,15 @@ html, body {
     width: 400px;
     margin: 15px;
     border-radius: 50%;
+    padding:20px;
+}
+
+.homepage-image {
+    float: left;
+    height: 400px;
+    width: 400px;
+    margin: 15px;
+    border-radius: 20%;
     padding:20px;
 }
 
